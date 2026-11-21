@@ -1,8 +1,1 @@
-Write your reflection here.
-
-See reflection.md for what makes a good reflection — be specific, use the
-terminology from this assignment (HTML element, CSS selector, class and id
-selectors, sibling selector, inner_text, attribute, headless browser, waiting for
-JavaScript, crawling, pagination, read_html, melt, fuzzy matching, normalization,
-threshold, human in the loop, merge indicator, gap analysis), and make it
-actionable.
+I learned a lot from doing this assignment, at first I was confused about how the same type of menu could need three completely different scraping methods depending on how the website was built. I learned how CSS selectors can find an HTML element with a class or id and how a sibling selector was needed to connect each Lakeshore heading to the correct menu cards. Hilltop made more sense once I saw how read_html could collect the tables and melt could turn the size columns into rows, but Canal Street was harder because the headless browser had to wait for JavaScript, handle pagination with Show more, read each link attribute, and crawl every item page. I also struggled with fuzzy matching because a high score did not always mean two products were actually the same, so normalization and the match threshold still needed a human in the loop for the uncertain items. The price comparison helped me understand how the cleaned names connected everything and how a merge indicator could separate products into only us, only them, or both for the gap analysis. I still need more practice writing selectors and scraping pages that load with JavaScript because I understand the steps better now but I think finding the correct elements on a new website would still take me a long time.
